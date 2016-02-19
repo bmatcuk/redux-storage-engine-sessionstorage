@@ -3,22 +3,22 @@
 [![dependencies](https://david-dm.org/bmatcuk/redux-storage-engine-sessionstorage.svg)](https://david-dm.org/bmatcuk/redux-storage-engine-sessionstorage)
 [![devDependencies](https://david-dm.org/bmatcuk/redux-storage-engine-sessionstorage/dev-status.svg)](https://david-dm.org/bmatcuk/redux-storage-engine-sessionstorage#info=devDependencies)
 
-[![license](https://img.shields.io/npm/l/redux-storage-engine-localstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstorage)
-[![npm version](https://img.shields.io/npm/v/redux-storage-engine-localstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstorage)
-[![npm downloads](https://img.shields.io/npm/dm/redux-storage-engine-localstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-localstorage)
+[![license](https://img.shields.io/npm/l/redux-storage-engine-sessionstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-sessionstorage)
+[![npm version](https://img.shields.io/npm/v/redux-storage-engine-sessionstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-sessionstorage)
+[![npm downloads](https://img.shields.io/npm/dm/redux-storage-engine-sessionstorage.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-engine-sessionstorage)
 
 `window.sessionStorage` based engine for [redux-storage][].
 
 ## Installation
 
-    npm install --save redux-storage-engine-localstorage
+    npm install --save redux-storage-engine-sessionstorage
 
 ## Usage
 
 Stores everything inside `window.sessionStorage`.
 
 ```js
-import createEngine from 'redux-storage-engine-localstorage';
+import createEngine from 'redux-storage-engine-sessionstorage';
 const engine = createEngine('my-save-key');
 ```
 
