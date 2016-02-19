@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-engine-sessionstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "window.sessionStorage engine for redux-storage",
   "main": "build/index.js",
   "jsnext:main": "src/index.js",
